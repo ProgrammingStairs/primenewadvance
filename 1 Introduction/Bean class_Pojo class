@@ -1,0 +1,17 @@
+Bean Class vs POJO Class
+-------------------------
+POJO class (Plain Old Java Object) : Pojo class does not follow any special restrictions other than those provided by java language specification.
+
+Restrictions includes : 
+1. Pojo class can implements Serializable interface.
+2. It can contains default constructor or parameterized constructor
+3. Data members can be public , private, protected or default
+4. Member functions can be can be public , private, protected or default
+
+Bean Class : Bean class also follows special restrictions other than those provided by java language specification.
+
+Restrictions includes : 
+1. Bean class must needs to implements Serializable interface.
+2. It must contains default constructor
+3. Data members must be private
+4. Member functions must be public

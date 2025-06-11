@@ -1,0 +1,64 @@
+Web Application : 
+Application which runs on the browser and whose execution takes place on the server.It basically follows client server architecture.
+             request
+  |-------------------------->
+client <------HTTP--------> server
+  <---------------------------|
+             response
+
+Http = Hyper text transfer protocol
+stateless protocol
+--x---------->
+--x---------->
+------------->
+
+Web Application
+  |-- Frontend 
+      |-- Web desigining
+          |-- Web Technologies 
+                |-- HTML
+                     |-- Structure
+                     |-- Tags
+                     |-- HTML5
+                |-- CSS
+                     |-- styling effects
+                     |-- properties 
+                     |-- css3 
+                |-- Media Query 
+                     |-- Responsiveness
+                |-- Bootstrap
+                     |-- Classes
+                     |-- Bootstrap5
+                |-- JavaScript
+                     |-- client side
+                          |-- Events, validation etc 
+                     |-- server side     
+                          |-- node, express etc
+                |-- React Js
+                     |-- Boost up speed of website
+                     |-- VDOM
+  |-- Backend
+    |-- Web Development
+        |--Programming Language
+            Java, php, python, .net etc
+            Runtime environment
+            |-- node , express etc
+        |-- Database 
+            |--RDBMS 
+                |-- structured data
+                |-- tables 
+                |-- MYSQL, SQL, ORACLE, POSTGRE etc
+                |-- Tools
+                    |-- ORM
+                        |-- Sequelize 
+                        |-- TypeORM etc
+            |--NOSQL
+                |-- semi-structured | un-structured data
+                |-- documents
+                |-- Mongodb, Redis, Casandra etc
+                |-- Tools
+                    |-- ODM
+                        |-- Mongoose etc
+        |-- Server 
+        |-- Server Maintenance
+        |-- API (Application Programming Interface)
