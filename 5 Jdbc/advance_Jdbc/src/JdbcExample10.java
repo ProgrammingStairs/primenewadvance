@@ -11,9 +11,9 @@ public class JdbcExample10 {
             Connection con = GetConnection2.getConnect();
             String query = "insert into product(pname,pqty,price) values (?,?,?)";
             PreparedStatement ps = con.prepareStatement(query);
-            ps.setString(1, "Fairness Cream");
-            ps.setString(2, "3 Units");
-            ps.setDouble(3, 678.8);
+            ps.setString(1, "Comb");
+            ps.setString(2, "100 units");
+            ps.setDouble(3, 100);
             ps.executeUpdate();
             System.out.println("Data Inserted successfully");
         } catch (SQLException ex) {
