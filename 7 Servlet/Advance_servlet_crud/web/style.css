@@ -1,0 +1,35 @@
+*{
+    font-family: candara;
+}
+#demo{
+ color:white;
+ background-color: black;
+ padding:20px;
+ font-size: 18px;   
+}
+
+#astyle{
+    color:white;
+    text-decoration: none;    
+}
+#demo1{
+   padding:30px
+}
+input{
+    height:40px;
+    width:300px;
+    margin: 2px;
+    font-size: 17px;
+}
+textarea{
+    font-size: 17px;
+    height:60px;
+    width:300px;
+    margin: 2px;
+}
+input[type="submit"],input[type="reset"]{
+    width:150px;
+    background-color: black;
+    color:white;
+    border-width: 0px;
+}
