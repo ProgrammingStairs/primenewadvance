@@ -23,7 +23,7 @@ public class ProfileServlet extends HttpServlet {
             out.print("Welcome "+email+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
           out.print("<a id='astyle' href='UpdateFormServlet'>Update Profile</a>&nbsp;&nbsp;");
           out.print("<a id='astyle' href='DeActivateUserServlet'>DeActivate Profile</a>&nbsp;&nbsp;");
-          out.print("&nbsp;&nbsp;&nbsp;<a id='astyle' href=''>Logout</a>");
+          out.print("&nbsp;&nbsp;&nbsp;<a id='astyle' href='LogoutServlet'>Logout</a>");
             out.print("</center></div>");  
             out.print("<div style='padding:30px'><h2>Welcome to Profile Page</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p></div>");
         }

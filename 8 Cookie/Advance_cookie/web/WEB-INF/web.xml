@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>ResistrationServlet</servlet-name>
-        <servlet-class>controller.ResistrationServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>controller.LoginServlet</servlet-class>
     </servlet>
@@ -13,25 +9,9 @@
         <servlet-class>controller.ProfileServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>UpdateFormServlet</servlet-name>
-        <servlet-class>controller.UpdateFormServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>UpdateServlet</servlet-name>
-        <servlet-class>controller.UpdateServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>DeActivateUserServlet</servlet-name>
-        <servlet-class>controller.DeActivateUserServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>LogoutServlet</servlet-name>
         <servlet-class>controller.LogoutServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>ResistrationServlet</servlet-name>
-        <url-pattern>/ResistrationServlet</url-pattern>
-    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
@@ -39,18 +19,6 @@
     <servlet-mapping>
         <servlet-name>ProfileServlet</servlet-name>
         <url-pattern>/ProfileServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>UpdateFormServlet</servlet-name>
-        <url-pattern>/UpdateFormServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>UpdateServlet</servlet-name>
-        <url-pattern>/UpdateServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>DeActivateUserServlet</servlet-name>
-        <url-pattern>/DeActivateUserServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LogoutServlet</servlet-name>

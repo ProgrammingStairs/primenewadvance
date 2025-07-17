@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center><h2>Example of Scripting Element</h2></center>
+    <form action="bill.jsp">
+    <table align="center" border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price <br> (Per Piece)</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Soap</td>
+            <td>
+                <input type="text" required placeholder="Enter Quantity" id="q1" name="q1">
+            </td>
+            <td>
+                <input type="text" required placeholder="Enter Price" id="p1" name="p1">
+            </td>
+        </tr>
+                <tr>
+            <td>2</td>
+            <td>Fairness <br> Cream</td>
+            <td>
+                <input type="text" required placeholder="Enter Quantity" id="q2" name="q2">
+            </td>
+            <td>
+                <input type="text" required placeholder="Enter Price" id="p2" name="p2">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><center>GST</center></td>
+    <td colspan="2">
+                <input type="text" required placeholder="Enter GST" id="gst" name="gst">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+        <center>
+            <button type="submit">Generate Bill</button>
+            <button type="reset">Reset</button>
+        </center>
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

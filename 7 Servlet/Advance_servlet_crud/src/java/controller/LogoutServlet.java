@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class DeActivateUserServlet extends HttpServlet {
+public class LogoutServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -19,17 +19,15 @@ public class DeActivateUserServlet extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             HttpSession session = request.getSession();
             String email = (String) session.getAttribute("email");
-            StudentDAO studentDao = new StudentDAO();
-            int i = studentDao.deActivateAccount(email);
-            if(i>0){
-                    session.setAttribute("email", null);
-                    session.invalidate();
-                    response.sendRedirect("index.html");
-            }else{
-                RequestDispatcher rd =  request.getRequestDispatcher("ProfileServlet");
-                out.print("<script>alert('Something went wrong')</script>");
-                rd.include(request, response);
-            }
+            session.setAttribute("email", null);
+            session.invalidate();
+            //  response.sendRedirect("index.html");
+            out.println("<html><head>");
+            out.println("<script>");
+            out.println("alert('logout successfully');");
+            out.println("window.location='index.html';");
+            out.println("</script>");
+            out.println("</head><body></body></html>");
         } catch (Exception e) {
             System.out.println("Exception : " + e);
         }
