@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+}
+#container{
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+#header{
+    height: 80px;
+    background-color: white;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+#heading{
+    position: absolute;
+    font-size: 35px;
+    font-family: candara;
+    margin-top: 20px;
+    font-weight: 600;
+}
+#nav{
+    height: 56px;
+    background-color: #234567;
+}
+#nav ul{
+    list-style: none;
+    padding-top: 14px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: candara;
+    font-size: 22px;
+    margin-left: 50px;
+}
+#box{
+    height: 530px;
+    /*background-color: crimson;*/
+}
+#leftbox{
+    float: left;
+    height: 530px;
+    width: 45%;
+    /*background-color: olive;*/
+}
+#rightbox{
+    float: left;
+    height: 530px;
+    width: 55%;
+    /*background-color: green;*/
+}
+#loginbox{
+    font-family: candara;
+    margin: 40px;
+    padding:40px;
+    height: 300px;
+    width:400px;
+    /*background-color: red;*/
+}
+input[type='email'],input[type='password'],input[type='text']{
+    height:30px;
+    width:300px;
+    margin: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    text-align: center;
+    outline: 0px;
+}
+input[type='date']{
+    height: 30px;
+}
+input[type='submit'],input[type='reset']{
+    height: 35px;
+    width: 305px;
+    border-width: 0px;
+    margin: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+    background-color: #234567;
+    color:white;
+}
+
+
+
+
+
+
